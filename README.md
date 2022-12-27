@@ -12,9 +12,13 @@ Instructor: Matt Zeidenberg
 The remaining questions are based on the ReadyChef database (readychef.db) which has been distributed along with this assignment. It represents data from a hypothetical e-commerce website that sells ready-to-eat meals. There are five tables in this database:
 
 • events: contains actions taken by users with respect to meals: can be either bought, like, or share
+
 • meals: contains the meal ids, meal types, date, and price. (Meals appear on the site on particular dates).
+
 • referrals: contains pairs of user ids representing what users have referred other users to the site
+
 • users: contains user ids, dates they joined the site, and what advertising campaign brought them to the site
+
 • visits: contains dates and user ids representing user visits to the site.
 
 2. What is the user id of the user that visited the site most frequently?
